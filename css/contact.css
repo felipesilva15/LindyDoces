@@ -1,0 +1,112 @@
+.link-contact{
+    color: #000000;
+}
+
+.contact-icon{
+    background-color: #212121;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.section-card{
+    margin: 0px 32px;
+}
+
+.section-item{
+    margin-bottom: 8px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#contact-topic{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#redes-sociais{
+    background-color: #F4BFB9;
+    margin-top: 60px;
+}
+
+.redes-sociais-imgbox{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.redes-sociais-img{
+    width: 100%;
+    height: 100%;
+}
+
+.default-img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-destaque{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.redes-sociais-links{
+    margin-left: 12px;
+}
+
+.link-redesocial{
+    margin-top: 5px;
+    color: #000000;
+}
+
+.redes-sociais-item{
+    margin-top: 16px;
+}
+
+#socialmedia-topic{
+    width: 600px;
+    padding-bottom: 60px;
+}
+
+.icon-dow{
+    width: 30px;
+    height: 30px;
+}
+
+.table-dow{
+    width: 600px;
+    border-radius: 10px;
+}
+
+#border-table
+{
+    border-radius: 10px;
+}
+
+.table-dow tr:last-child td:last-child{
+    border-bottom-right-radius: 8px;
+}
+
+.table-dow tr:last-child td:first-child{
+    border-bottom-left-radius: 8px;
+}
+
+.table-dow tr:first-child th:last-child{
+    border-top-right-radius: 8px;
+}
+
+.table-dow tr:first-child th:first-child{
+    border-top-left-radius: 8px;
+}
+
+.default-text{
+    margin-bottom: 32px;
+}
