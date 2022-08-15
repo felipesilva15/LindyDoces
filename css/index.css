@@ -1,13 +1,12 @@
 #div-principal{
     width: 100%;
     height: 800px;
-    /* filter: blur(3px); */
     width: 100%;
     background-image: url("../images/fundo-bolo.png");
-    background-color: #888888;
     background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #div-logo{
@@ -32,36 +31,43 @@
     width: 100%;
 }
 
-#oque-fazemos{
+#segmentos{
     background-color: #F4BFB9;
 }
 
-#test{
-    width: 1000px;
-}
-
 .box-segmento{
-    width: 150px;
-    height: 180px;
-    background-color: #c0c0c0;
-    margin: 15px 8px 0px 8px;
+    width: 200px;
+    height: 240px;
+    background-color: #FFFFFF;
+    margin: 16px 16px 0px 16px;
+    border-radius: 6px 6px 6px 6px;
+    transition: 200ms;
+}
+.box-segmento:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .segmento-text{
     width: 100%;
-    height: 40px;
-    background-color: #888888;
+    height: 20%;
+    background-color: #212121;
     font-weight: bold;
+    font-size: 1.3em;
+    color: #FFFFFF;
+    border-radius: 0px 0px 6px 6px;
 }
 
 .segmento-img{
-    height: 140px;
+    height: 80%;
     width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #FFFFFF;
 }
 
 #segmento-content{
     margin: 60px 0px;
-    width: 700px;
+    width: 800px;
 }
 
 #oque-fazemos-content{
@@ -72,4 +78,11 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+
+.imagem-segmento{
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    box-sizing: border-box;
 }

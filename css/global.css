@@ -49,7 +49,7 @@ footer{
     margin: 0px;
 }
 
-.container{
+.flex-custom{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -67,7 +67,7 @@ footer{
     justify-content: space-around;
 }
 
-.row{
+.row-custom{
     flex-direction: row;
 }
 
@@ -88,6 +88,11 @@ footer{
     text-decoration: underline;
 }
 
+.link-nav{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 
 /* Header */
 
@@ -101,6 +106,7 @@ footer{
     align-items: center;
     flex: 1;
     box-sizing: border-box;
+    z-index: 9999;
 }
 
 .menu-item{
@@ -109,6 +115,12 @@ footer{
     font-weight: bold;
     margin: 0rem 1.5rem;
     letter-spacing: 1px;
+    transition: 80ms;
+}
+
+.menu-item:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .menu-options{
