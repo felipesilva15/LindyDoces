@@ -250,3 +250,12 @@ td, th{
     height: 100%;
     padding: 20px;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.padding-x-lg{
+    padding-left: 16px;
+    padding-right: 16px;
+}

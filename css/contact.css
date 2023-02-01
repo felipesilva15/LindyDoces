@@ -12,7 +12,9 @@
 }
 
 .section-card{
-    margin: 0px 32px;
+    margin: 8px 16px;
+    max-width: 200px;
+    width: 100%;
 }
 
 .section-item{
@@ -72,7 +74,8 @@
 }
 
 #socialmedia-topic{
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     padding-bottom: 60px;
 }
 
@@ -82,13 +85,14 @@
 }
 
 .table-dow{
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     border-radius: 10px;
 }
 
-#border-table
-{
+#border-table{
     border-radius: 10px;
+    margin: 0 16px;
 }
 
 .table-dow tr:last-child td:last-child{
