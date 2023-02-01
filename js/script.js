@@ -7,3 +7,7 @@ $('a[href^="#"]').on('click', function(e) {
 		scrollTop: targetOffset - 30
 	}, 600);
 });
+
+$('.hamburguer').on('click', () => {
+    $('.nav-bar').toggleClass('active');
+})
